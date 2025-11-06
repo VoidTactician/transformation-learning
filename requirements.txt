@@ -1,0 +1,12 @@
+# Transformation Learning for Continual Learning
+# Python dependencies
+
+# Core deep learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Optional: For faster data loading
+# Pillow>=9.0.0
