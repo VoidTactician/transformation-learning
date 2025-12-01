@@ -1,0 +1,62 @@
+{
+  "sequential_ft": {
+    "approach": "sequential_ft",
+    "seed": 42,
+    "average_forgetting": 36.87210678550681,
+    "task_results": {
+      "generation": {
+        "scores": [
+          10.94393912887012,
+          0.11641723003992577,
+          0.20026600244123613
+        ],
+        "initial_bleu": 10.94393912887012,
+        "final_bleu": 0.20026600244123613,
+        "forgetting": 10.743673126428885
+      },
+      "summarization": {
+        "scores": [
+          0.05664180227200498,
+          100.00000000000004,
+          0.12735276990849106
+        ],
+        "initial_bleu": 100.00000000000004,
+        "final_bleu": 0.12735276990849106,
+        "forgetting": 99.87264723009154
+      },
+      "translation": {
+        "scores": [
+          3.43447914368866,
+          0.018965526764871746,
+          100.00000000000004
+        ],
+        "initial_bleu": 100.00000000000004,
+        "final_bleu": 100.00000000000004,
+        "forgetting": 0.0
+      }
+    }
+  },
+  "frozen_experts": {
+    "approach": "frozen_expert_routing",
+    "seed": 42,
+    "router_converged": false,
+    "average_forgetting": 0.0,
+    "task_results": {
+      "generation": {
+        "initial_bleu": 10.94393912887012,
+        "final_bleu": 10.94393912887012,
+        "forgetting": 0.0
+      },
+      "summarization": {
+        "initial_bleu": 100.00000000000004,
+        "final_bleu": 100.00000000000004,
+        "forgetting": 0.0
+      },
+      "translation": {
+        "initial_bleu": 100.00000000000004,
+        "final_bleu": 100.00000000000004,
+        "forgetting": 0.0
+      }
+    }
+  }
+}

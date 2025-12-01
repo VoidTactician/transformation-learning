@@ -10,3 +10,9 @@ numpy>=1.24.0
 
 # Optional: For faster data loading
 # Pillow>=9.0.0
+
+# Code generation experiments (experiments/code/)
+transformers>=4.30.0
+datasets>=2.12.0
+evaluate>=0.4.0
+sacrebleu>=2.3.0
